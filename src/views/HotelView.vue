@@ -1,7 +1,7 @@
 <template>
-  <main class="homePage">
-    <NavigationLayout />
-    <DisplayPanels pageName="homePage" />
+  <main class="hotelPage">
+      <NavigationLayout />
+      <DisplayPanels pageName="hotel" /> 
   </main>
 </template>
 
@@ -13,12 +13,10 @@ import NavigationLayout from '@/components/layout/NavigationLayout.vue'
 import DisplayPanels from '@/components/utility/DisplayPanels.vue'
 
 export default {
-
-  name: 'HomeView',
+  name: "HotelView",
   components: {
-    NavigationLayout,
-    DisplayPanels
-  },
-}
-
+      DisplayPanels,
+      NavigationLayout
+  }
+};
 </script>
